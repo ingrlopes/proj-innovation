@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Innovation Class</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Header com barra superior + menu categorias -->
+  <header class="top-bar">
+    <!-- Faixa de Desconto -->
+    <div class="fita-desconto">
+      <p>Ganhe <strong>$10,00</strong> de desconto no seu primeiro pedido. Utilize o cupom <strong>DESCONTO10</strong></p>
+    </div>
+    <div class="top-bar-content">
+      <img src="assets/img/logo.png" alt="Logo" class="logo" />
+      <div class="search-container">
+        <input type="text" id="campo-busca" placeholder="O que você está procurando?" />
+        <img src="assets/img/icone-busca.png" alt="Buscar" class="icon" id="btn-buscar"/>
+      </div>
+      <div class="icons">
+        <div class="perfil">
+          <img src="assets/img/icone-perfil.png" alt="Perfil" />
+          <p class="nome-usuario">Olá, cliente</p>
+        </div>
+        <div class="carrinho">
+          <img src="assets/img/icone-carrinho.png" alt="Carrinho" />
+        </div>
+      </div>
+    </div>
+
+    <nav class="menu-categorias">
+      <ul>
+        <li class="menu-categorias-todas"><a href="#">Todas Categorias</a></li>    
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+        <li><a href="#">Departamento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagem SUPERSALE -->
+  <section class="supersale">
+    <img src="assets/img/cadeira.png" alt="Imagem SUPERSALE com cadeira" class="supersale-img"/>
+  </section>
+
+  <!-- Resultado da busca -->
+  <section id="resultado-busca" class="resultado-busca"></section>
+
+  <!-- Seção de Destaque com Swiper -->
+  <section class="categorias-destaque">
+    <div class="destaque-header">
+      <h3>Lançamentos</h3>
+      <a href="#" class="ver-mais">Ver mais</a>
+    </div>
+    <div class="swiper destaqueSwiper">
+      <div class="swiper-wrapper">
+      <!-- Card Produto -->
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 1">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 2">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 3">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 4">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 5">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+    </div>
+    <!-- Setas de navegação -->
+    <div class="swiper-button-prev categoria-prev">
+      <img src="assets/img/esquerda.png" alt="Anterior">
+    </div>
+    <div class="swiper-button-next categoria-next">
+      <img src="assets/img/direita.png" alt="Próximo">
+    </div>
+  </div>
+</section>
+
+<!-- Banner 1 -->
+<section class="secao-destaque">
+  <div class="container-destaque">
+    <div class="imagem-destaque">
+      <img src="assets/img/caneca.png" alt="Caneca Avanti" />
+    </div>
+    <div class="texto-destaque">
+      <h2>LOREM IPSUM</h2>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+        Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis 
+        metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. 
+        Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, 
+        auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo 
+        egestas efficitur id augue.
+      </p>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+        Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis 
+        metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. 
+        Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, 
+        auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo 
+        egestas efficitur id augue.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Banner 2 -->
+<section class="secao-informacoes">
+  <div class="container-informacoes">
+    <div class="coluna-esquerda">
+      <h2>LOREM IPSUM</h2>
+
+      <div class="info-item">
+        <div class="icone-info">
+          <img src="assets/img/icone-loc.png" alt="Telefone" />
+        </div>
+        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+      </div>
+
+      <div class="info-item">
+        <div class="icone-info">
+          <img src="assets/img/icone-loc.png" alt="Telefone" />
+        </div>
+        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+      </div>
+
+      <div class="info-item">
+        <div class="icone-info">
+          <img src="assets/img/icone-loc.png" alt="Telefone" />
+        </div>
+        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+      </div>
+    </div>
+
+    <div class="coluna-direita">
+      <img src="assets/img/caneca2.png" alt="Caneca Avanti em cozinha" />
+    </div>
+  </div>
+</section>
+
+<!-- Banner 1 -->
+<section class="secao-destaque">
+  <div class="container-destaque">
+    <div class="imagem-destaque">
+      <img src="assets/img/caneca.png" alt="Caneca Avanti" />
+    </div>
+    <div class="texto-destaque">
+      <h2>LOREM IPSUM</h2>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+        Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis 
+        metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. 
+        Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, 
+        auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo 
+        egestas efficitur id augue.
+      </p>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. 
+        Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis 
+        metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. 
+        Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, 
+        auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo 
+        egestas efficitur id augue.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- Seção de Destaque com Swiper -->
+  <section class="categorias-destaque">
+    <div class="destaque-header">
+      <h3>Lançamentos</h3>
+      <a href="#" class="ver-mais">Ver mais</a>
+    </div>
+    <div class="swiper destaqueSwiper">
+      <div class="swiper-wrapper">
+      <!-- Card Produto -->
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 1">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 2">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 3">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 4">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card-produto">
+          <span class="selo-novo">NOVO</span>
+          <img src="assets/img/modelo.png" alt="Produto 5">
+          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+          <p class="preco-antigo">R$100,00</p>
+          <p class="preco-atual">R$79,90</p>
+          <span class="desconto">10% OFF</span>
+          <p class="parcelamento">ou em até 10x de R$ 7,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+    </div>
+    <!-- Setas de navegação -->
+    <div class="swiper-button-prev categoria-prev">
+      <img src="assets/img/esquerda.png" alt="Anterior">
+    </div>
+    <div class="swiper-button-next categoria-next">
+      <img src="assets/img/direita.png" alt="Próximo">
+    </div>
+  </div>
+</section>
+
+<!-- Banner 3 -->
+<section class="imagem-contato">
+  <img src="assets/img/banner.png" alt="Entre em contato conosco" />
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+  <h2>Cadastre-se na nossa <span>newsletter</span></h2>
+  <form class="newsletter-form">
+    <input type="text" placeholder="Digite seu nome" required />
+    <input type="email" placeholder="Digite seu e-mail" required />
+    <label class="checkbox-container">
+      <input type="checkbox" required />
+      <span>Estou de acordo com a <a href="#">Política de Privacidade</a></span>
+    </label>
+    <button type="submit">Cadastrar</button>
+  </form>
+</section>
+
+<!-- Footer -->>
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo-redes">
+      <img src="assets/img/logo.png" alt="Logo Avanti" class="footer-logo" />
+      <img src="assets/img/redes-sociais.png" alt="Redes sociais" class="footer-redes" />
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Institucional</h4>
+        <h5>Sobre Nós</h5>
+        <h5>Nossas Lojas</h5>
+        <h5>Privacidade e Segurança</h5>
+        <h5>Termos e Condições</h5>
+      </div>
+      <div class="footer-col">
+        <h4>Central de ajuda</h4>
+        <h5>Fale Conosco</h5>
+        <h5>Frete e Entrega</h5>
+        <h5>Trocas e Devoluções</h5>
+        <h5>Formas de Pagamento</h5>
+        <h5>FAQ</h5>
+      </div>
+      <div class="footer-col">
+        <h4>Atendimento</h4>
+        <h5><strong>Telefone:</strong> (00) 1234-5678</h5>
+        <h5><strong>E-mail:</strong> exemplo@exemplo.com.br</h5>
+        <h5><strong>Horário de atendimento:</strong></h5>
+        <p>Segunda a Sábado: 07h00 às 23h00</p>
+        <p>Domingos e Feriados: 07h00 às 21h00</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-payment">
+    <img src="assets/img/pagamentos.png" alt="Formas de pagamento" />
+  </div>
+</footer>
+
+<div class="footer-texto">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+    suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+    vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+    et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+  </p>
+</div>
+
+<div class="footer-selos">
+  <img src="assets/img/empresas.png" alt="Selos das empresas" />
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
