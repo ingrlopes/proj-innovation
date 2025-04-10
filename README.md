@@ -18,16 +18,6 @@ Esse foi o **meu primeiro projeto prático** utilizando **HTML, CSS e JavaScript
 
 O design original foi disponibilizado pelo curso **Innovation Class** através de um protótipo no **Figma**. Este projeto foi desenvolvido com base nesse layout, respeitando fielmente a estrutura visual e a ordem das seções.
 
-## 📁 Estrutura de Pastas
-
-innovation-class/ ├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-├── assets/
-│ └── img/
-
 ## 🚧 Status do Projeto
 
 ✅ Projeto finalizado.
